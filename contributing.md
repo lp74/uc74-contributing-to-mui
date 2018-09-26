@@ -197,7 +197,7 @@ We'll check:
 
 - the use of existing MUI patterns, CSS classes, components ... and so on,
 - the compliance with the ABB common UX guidelines and the provided specifications (mock-up and specifications),
-- the compliance with the coding guidelines (formattaton included),
+- the compliance with the coding guidelines (code format included),
 - the unit tests (TDD) and end to end tests (E2E).
 
 > Our goal is to develop new interesting feature and bug fixes; We hope that your code passes all tests. Good Luck!
