@@ -214,9 +214,14 @@ Once you are done with all the issues you can submit another pull request.
 > **TODO** to be continued ...
 
 ## <a name="links"></a>Links
+
+ABB
 - [ABB MUI online catalogue]() ... to be done
 - [ABB Redmine](http://monitoring-helpdesk.it.abb.com)
 - [ABB VersionOne](https://versionone.abb.com)
 - [ABB Common UX style guide](https://stsint.abb.com)
+
+Other
+- [Git book](https://git-scm.com/book/en/v2)
 - [Contributing to angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)
 - [Angular style guide](https://github.com/johnpapa/angular-styleguide)
