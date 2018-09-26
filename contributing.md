@@ -206,6 +206,9 @@ If any of the checks fails, you will be notified soon. One ore more issues will 
 Our team might comment the code in the feature branch to highlight the issue or to show a suggested solution, or a common pattern.
 Once you are done with all the issues you can submit another pull request.
 
+## <a name="Coding rules"></a>Coding rules
+[Coding rules](coding-rules.md)
+
 ## <a name="definition-of-done"></a>Definition of done
 
 > **TODO** to be continued ...
