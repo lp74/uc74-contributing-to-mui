@@ -8,7 +8,7 @@ Here are the guidelines we would like you to follow
 
 - [MUI Repository](#repository)
 - [MUI Catalogue](#catalogue)
-- [References](#specification)
+- [Specification and guidelines](#specification)
 - [New features](#new-features)
 - [Bug fixes](#bug-fixes)
 - [Commit message guidelines](#commit-message-guidelines)
