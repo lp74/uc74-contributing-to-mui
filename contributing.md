@@ -40,11 +40,11 @@ currently we have created a new folder **front-end-2** that contains the three s
 The files contained in these folders should follow our naming conventions and folder structures.
 Just to show an example, the component **cux-notification-message**, that is a core UI component, is inside the sub-folder:
 
-**../ui-components/cux/notifications/message**
+**../ui-components/core/cux/notifications/message**
 
 and it's AngularJS module is
 
-**ui.components.cux.notifications.message**
+**ui.components.core.cux.notifications.message**
 
 Every components should deliver at least the following files:
 
@@ -200,12 +200,13 @@ Must be one of the following:
 * **test**: Adding missing tests or correcting existing tests
 
 ### Scope
-The scope should be the name of the affected module
+The scope should be the name of the affected module (lowerCamelCase)
 
 The following are examples:
 
-* **ui.components.cux.controls.button**
-* **ui.components.cux.controls.input**
+* **ui.components.core.cux.controls.button**
+* **ui.components.core.cux.controls.input**
+* **ui.components.opt.cux.charts.lineChart**
 
 ### Subject
 The subject contains a succinct description of the change:
@@ -260,16 +261,71 @@ Once you are done with all the issues you can submit another pull request.
 
 ## <a name="arch"></a> Architecture
 
-- front-end-2
-    - ui-components
-        - cux
-            - layout
-                - less
-            - component
-    - ui-composites
-    - connectivity
-        
- 
+```
+  /dist (here goes the build)
+    img/
+      ..
+    fonts/
+      ..
+    mui.core.css (stylesheet) <= CSS can be used without a framework
+    mui.js (utilities) <= Vanilla js
+  /front-end-2
+    /ui-layout
+      /core/cux
+        /fonts
+        /style
+          ...
+          _breackpoints.less
+          _font-faces.less
+          ...
+          _utilities.less
+          _variables.less
+          layout.less (import core ui-components)
+        /..
+    /ui-components
+      /core/cux (i.e. buttons, inputs, tabs, navigator)
+        /component-nane
+        /components-group
+          /component-name
+        /notifications
+          /message
+            message.directive.js
+            message.html
+            message.less
+            message.spec.js
+            readme.md
+            /doc
+              html.md
+              javascript.md
+       /opt/cux
+         ... (i.e. gauges, charts ...)
+    /ui-composites
+      /cux
+    /connectivity
+  
+  /app
+    /www
+      /bower_components
+      /ui-components
+      /ui-composites
+      /connectivity
+      /dashboard
+        dashboard.controller.js (module: app.dashboard)
+        dashboard.html
+        ..
+      /login
+        login.controller.js (module: app.login)
+        login.html
+      /status-summary
+      /style
+        app.less (only application classes)
+        mui.less (imported from mui optional ui-components ad other ui-composites)
+      /services
+      /sessions
+      /...
+    /...
+    ...
+```
 
 [Back to top](#summary)
 
@@ -285,3 +341,4 @@ Other
 - [Git book](https://git-scm.com/book/en/v2)
 - [Contributing to angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)
 - [Angular style guide](https://github.com/johnpapa/angular-styleguide)
+- [CSS BEM naming convention](https://medium.freecodecamp.org/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849)
