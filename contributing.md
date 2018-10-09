@@ -3,6 +3,7 @@
 Here are the guidelines we would like you to follow
 
 > This work is in progress!!!
+> The interaction with Webpack should be investigated
 
 ## <a name="summary"></a> Summary
 
