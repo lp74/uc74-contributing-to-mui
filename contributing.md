@@ -29,6 +29,48 @@ $ git clone git@itteb-s-git0001.it.abb.com:FeasibilityStudy/MultiplatformUI
 > To clone the repository, you need your authorised credentials.
 > Please, ask the administrator.
 
+We are going to partition the project in three repositories:
+
+- ui-components,
+- ui-composites, and
+- connectivity.
+
+currently we have created a new folder **front-end-2** that contains the three sub-directories.
+The files contained in these folders should follow our naming conventions and folder structures.
+Just to show an example, the component **cux-notification-message**, that is a core UI component, is inside the sub-folder:
+
+**../ui-components/cux/notifications/message**
+
+and it's AngularJS module is
+
+**ui.components.cux.notifications.message**
+
+Every components should deliver at least the following files:
+
+- component.js: directive
+- component.html: html template
+- component.less: the style
+- component.spec.js: unit test
+- readme.md: general documentation
+- javascript.md: an example about how to use the component (js)
+- html.md: an example about how to use the component (html)
+
+Before to code the component, we should define:
+
+- if there exists a developed Common UX component [here](https://commonux.abb.com/),
+- the name of the component, it's module and it's attributes,
+- how to use it as pure HTML tag or class.
+
+We believe in the principles of software developement (at least):
+
+- [SOLID](https://en.wikipedia.org/wiki/SOLID)
+- [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+- [KISS](https://en.wikipedia.org/wiki/KISS_principle)
+
+and a strong understanding of [GOF Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns) is recommended.
+
+The review of the component will be done following these principles and software engineering good practises.
+
 ## <a name="catalogue"></a> MUI catalogue
 
 > **TODO** Deploy MUI catalogue
@@ -40,7 +82,8 @@ We provide you with a set of documents and tools to complete your work and to su
 - User stories (if applicable),
 - Mock-ups and prototypes (if applicable),
 - [The MUI catalog of patterns, CSS classes and componentes](http://...),
-- [Common UX principles](https://softwareui.abb.com/)
+- [Common UX principles](https://softwareui.abb.com/) **obsolete**
+- [Common UX principles](https://commonux.abb.com/) **new**
 
 ## <a name="new-features"></a> New features
 
