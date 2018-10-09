@@ -209,7 +209,7 @@ The following are examples:
 * **ui.components.opt.cux.charts.lineChart**
 
 ### Subject
-The subject contains a succinct description of the change:
+The subject contains a succint description of the change:
 
 * use the imperative, present tense: "change" not "changed" nor "changes"
 * don't capitalize the first letter
@@ -319,7 +319,7 @@ Once you are done with all the issues you can submit another pull request.
       /status-summary
       /style
         app.less (only application classes)
-        mui.less (imported from mui optional ui-components ad other ui-composites)
+        mui.opt.less (imported from mui optional ui-components ad other ui-composites)
       /services
       /sessions
       /...
