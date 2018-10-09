@@ -115,6 +115,8 @@ Bug fixing procedure is similar to the [New features](#new-features) procedure, 
 
 5. commit your work following the [Commit message guidlelines](#commit-message-guidelines)
 
+> Before to commit 
+
 > Please, checkout our [definition of done](#definition-of-done)
 
 ```shell
@@ -158,9 +160,8 @@ The scope should be the name of the affected module
 
 The following are examples:
 
-* **abb.controls.cux-buttons**
-* **abb.controls.cux-selectors**
-* **abb.components.cux-charts**
+* **ui.components.cux.controls.button**
+* **ui.components.cux.controls.input**
 
 ### Subject
 The subject contains a succinct description of the change:
