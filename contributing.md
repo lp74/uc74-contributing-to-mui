@@ -47,7 +47,7 @@ and it's AngularJS module is
 
 Every components should deliver at least the following files:
 
-- component.js: directive
+- component.directive.js: directive
 - component.html: html template
 - component.less: the style
 - component.spec.js: unit test
@@ -81,7 +81,7 @@ We provide you with a set of documents and tools to complete your work and to su
 
 - User stories (if applicable),
 - Mock-ups and prototypes (if applicable),
-- [The MUI catalog of patterns, CSS classes and componentes](http://...),
+- [The MUI catalog of patterns, CSS classes and components](http://...),
 - [Common UX principles](https://softwareui.abb.com/) **obsolete**
 - [Common UX principles](https://commonux.abb.com/) **new**
 
