@@ -4,7 +4,7 @@ Here are the guidelines we would like you to follow
 
 > This work is in progress!!!
 
-## Summary
+## <a name="summary"></a> Summary
 
 - [MUI Repository](#repository)
 - [MUI Catalogue](#catalogue)
@@ -17,6 +17,7 @@ Here are the guidelines we would like you to follow
 - [Coding rules](#coding-rules)
 - [Definition of done](#definition-of-done)
 - [Links](#links)
+- [Architecture](#arch)
 
 ## <a name="repository"></a> MUI repository
 
@@ -256,6 +257,21 @@ Once you are done with all the issues you can submit another pull request.
 ## <a name="definition-of-done"></a>Definition of done
 
 > **TODO** to be continued ...
+
+## <a name="arch"></a> Architecture
+
+- front-end-2
+    - ui-components
+        - cux
+            - layout
+                - less
+            - component
+    - ui-composites
+    - connectivity
+        
+ 
+
+[Back to top](#summary)
 
 ## <a name="links"></a>Links
 
