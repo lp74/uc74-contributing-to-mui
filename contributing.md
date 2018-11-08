@@ -199,6 +199,7 @@ Must be one of the following:
 * **refactor**: A code change that neither fixes a bug nor adds a feature
 * **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 * **test**: Adding missing tests or correcting existing tests
+* **chore**: a small task (i.e. moving a file)
 
 ### Scope
 The scope should be the name of the affected module (lowerCamelCase)
