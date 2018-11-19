@@ -6,7 +6,7 @@ Here are the guidelines we would like you to follow
 > The interaction with Webpack should be investigated
 
 ## <a name="summary"></a> Summary
-
+- [Tools](#tools)
 - [MUI Repository](#repository)
 - [MUI Catalogue](#catalogue)
 - [Specification and guidelines](#specification)
@@ -19,6 +19,14 @@ Here are the guidelines we would like you to follow
 - [Definition of done](#definition-of-done)
 - [Links](#links)
 - [Architecture](#arch)
+
+## <a name="tools"></a> Tools
+
+- IDE: [Visual Studio Code](https://code.visualstudio.com/download), with the following extensions:
+  - Auto Close Tag,
+  - Auto Rename Tag,
+  - **ESLint**,
+  - **GitLens**.
 
 ## <a name="repository"></a> MUI repository
 
@@ -209,6 +217,8 @@ The following are examples:
 * **ui.components.core.cux.controls.button**
 * **ui.components.core.cux.controls.input**
 * **ui.components.opt.cux.charts.lineChart**
+
+* **ui.app.ame.firmware**
 
 ### Subject
 The subject contains a succint description of the change:
