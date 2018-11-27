@@ -25,9 +25,46 @@ Here are the guidelines we would like you to follow
 - IDE: [Visual Studio Code](https://code.visualstudio.com/download), with the following extensions:
   - Auto Close Tag,
   - Auto Rename Tag,
-  - **ESLint**,
-  - **GitLens**.
+  - Beautify css/sass/scss/less,
+  - Bracket Pair Colorizer,
+  - ESLint,
+  - GitLens,
+  - indent-rainbow,
+  - Indenticator,
+  - Less IntelliSense,
+  - Markdown Preview Github Styling
+  - Quokka.js,
+  - REST Client,
+  - Sort lines,
+  - SVG,
+  - TODO Highlight,
+  - Transformer,
+  - vscode-icons
 
+### ESLint
+
+install ESLint globally in the computer
+
+```bash
+npm i eslint -g
+```
+
+In Visula Stuido Code:
+
+User settings:
+```json
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": true
+}
+```
+Worksapce settings:
+```json
+{
+  "eslint.autoFixOnSave": false
+}
+```
 ## <a name="repository"></a> MUI repository
 
 To clone the repository locally
@@ -309,8 +346,8 @@ Once you are done with all the issues you can submit another pull request.
             /doc
               html.md
               javascript.md
-       /opt/cux
-         ... (i.e. gauges, charts ...)
+      /opt/cux
+        ... (i.e. gauges, charts ...)
     /ui-composites
       /cux
     /connectivity
