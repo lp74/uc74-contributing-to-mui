@@ -56,7 +56,7 @@ User settings:
 {
   "editor.tabSize": 2,
   "editor.insertSpaces": false,
-  "editor.detectIndentation": true
+  "editor.detectIndentation": false
 }
 ```
 Worksapce settings:
@@ -78,9 +78,9 @@ $ git clone git@itteb-s-git0001.it.abb.com:FeasibilityStudy/MultiplatformUI
 
 We are going to partition the project in three repositories:
 
-- ui-components,
-- ui-composites, and
-- connectivity.
+- **ui-components**: monitoring/ux/lib/connectivity.git
+- **ui-composites**: monitoring/ux/lib/ui-components.git
+- **connectivity**: monitoring/ux/lib/ui-composites.git
 
 currently we have created a new folder **front-end-2** that contains the three sub-directories.
 The files contained in these folders should follow our naming conventions and folder structures.
