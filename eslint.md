@@ -47,7 +47,7 @@ Visual Studio Code plugin: ESLint
 ### Configuration
 
 ```json
-${
+{
 	"editor.tabSize": 2,
 	"editor.insertSpaces": true,
 	"editor.detectIndentation": true,
