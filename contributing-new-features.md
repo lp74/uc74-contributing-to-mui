@@ -23,6 +23,8 @@ $ git pull origin/master
 ```
 ## 3. Create a new branch 
 
+![IMG](./contributing/branching.svg)
+
 named **feature-n-short-description** where:
 - n is the redmine issue-id,
 - short-description is the redmine issue-title (whenever applicable).
@@ -52,15 +54,23 @@ $ git add . # it depends on your feature, pay attention to the files that you ad
 $ git commit -m "feature(scope): succint description of the feature (issue-id)"
 ```
 
+### 5.1 Squashing
 > Please, to keep history clean, squash your commits.
 
 ```shell
 $ git rebase -i HEAD~n
 ```
+## 6 Rebasing and Merging your work
 
-## 6.a Rebase your work on to master (preferred)
+Please read [this useful tutorial ](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) about "Merging vs. Rebasing" before choosing your strategy.
+
+## 6.a Rebasing the master branch
+
+![IMG](./contributing/rebasing.svg)
 
 If your are the unique developer of your local feature branch, you cand rebase your work on to master.
+
+> Once you understand what rebasing is, the most important thing to learn is when not to do it. The golden rule of git rebase is to never use it on public branches.
 
 ```shell
 $ git fetch --all
@@ -73,7 +83,9 @@ $ git rebase origin/master
 
 After rebasing your work, fix conflicts (if needed) and keep tests successful.
 
-## 6.b Merge your work on to master
+## 6.b Merging master into the feature branch
+
+![IMG](./contributing/merging.svg)
 
 ```shell
 $ git fetch --all
