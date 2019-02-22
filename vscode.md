@@ -24,6 +24,7 @@
 - Markdown Preview Github Styling
 - Quokka.js,
 - REST Client,
+- Sort imports by module
 - Sort lines,
 - SVG,
 - TODO Highlight,
