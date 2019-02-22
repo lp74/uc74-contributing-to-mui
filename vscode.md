@@ -14,6 +14,7 @@
 - Auto Rename Tag,
 - Beautify css/sass/scss/less,
 - Bracket Pair Colorizer,
+- Code Spell Checker
 - ESLint,
 - Git History Diff,
 - GitLens,
